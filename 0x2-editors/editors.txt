@@ -1,2 +1,31 @@
-0 - answer to question 0
-1 - answer...
+** What is Emacs = text editor
+Emacs, originally named EMACS, is a family of text editors that are characterized by their extensibility. The manual for the most widely used variant, GNU Emacs, describes it as "the extensible, customizable, self-documenting, real-time
+by specifying the filename when you start Emacs or by typing C-x C-f (the long command name for this is find-file)
+
+** How to open file in Emac==> To open emac ===> enter Emacs, type emacs at the shell prompt. When you want to leave Emacs for a short time, type a C-z and Emacs will be suspended. To get back into Emacs, type %emacs at the shell prompt. To quit Emacs permanently, type C-x C-c.
+>> How to save a file in Emac==> To save the file you are editing, type C-x C-s or select Save Buffer from the Files menu. Emacs writes the file.
+
+** How to undo
+>> The command C-x u or C-_ is how you undo. The first time you give this command, it undoes the last change. Point moves back to where it was before the command that made the change. Consecutive repetitions of C-_ or C-x u undo earlier and earlier changes, back to the limit of the undo information available.
+>> Emacs records a list of changes made in the buffer text, so you can undo recent changes. This is done using the undo command, which is bound to C-/ (as well as C-x u and C-_ ). 
+
+** How to cancel half-entered commands
+>> Quitting with C-g is used for getting rid of a partially typed command, or a numeric argument that you don't want. It also stops a running command in the middle in a relatively safe way, so you can use it if you accidentally give a command which takes a long time.
+
+** How to quit Emacs
+To end a session in Emacs, type C-x C-c or select Exit Emacs from the Files menu.
+
+---------------------------------
+** What is vi - text editor
+** How to start and exit vi --->  vi <filename> — Open or edit a file.
+
+** What are the command and insert modes, ==> i 
+** and how to  -->  switch from one to the other ==> i , Esc 
+
+** How to edit text ==> type it
+
+** How to cut and paste lines Ctrl Press y to copy. Ctrl Press d to cut. Move the cursor to where you want to paste your selection. Press P (uppercase) to paste before your cursor.
+
+** How to undo ==> If you make a mistake in vi or if you just change your mind after an operation is completed, you can undo your last command by pressing u immediately after the command. You do not need to press Esc after you type u .
+
+** How to quit vi --> Q!
